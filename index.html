@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Traffic Signal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="div1">
+        <h1 id="heading">Start Manual or Automatic Operation</h1>
+        <h2 id="signalTimer"></h2>
+    </div>
+    <div id="signalBody">
+        <div id="red" class="signal"></div>
+        <div  id="yellow" class="signal"></div>
+        <div  id="green" class="signal"></div>
+    </div>
+    <button onclick="auto()">Click for Automatic Operation</button><br>
+    <button onclick="stop()">Stop Automatic Operation</button><br>
+    <button onclick="manual()">Click to Operate Manually</button>
+    <script src="script.js"></script>
+</body>
+</html>
